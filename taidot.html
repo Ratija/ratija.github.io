@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/index.css">
+  <title>JR - Taidot ja näytteet</title>
+</head>
+
+<body>
+  <script src="/assets/JS/funktiot.js"></script>
+  <!-- MAIN CONTAINER -->
+  <div id="main_container">
+    <!-- HEADER -->
+    <div id="header">
+      <!-- LOGOTYPE/NAME -->
+      <div class="header_logotype_container">
+        <h1 class="logotype_name">Janne <span class="purple">Ratilainen</span></h1>
+
+      </div>
+      <!-- MAIN MENU -->
+      <div class="header_menu_container">
+        <ul class="download_print_buttons horizontal_list">
+          <li><a href="assets/images/työhakemus.pdf"><span class="icon entypo-download"></span>Lataa kirje</a></li>
+          <li><a href="assets/images/Janne_Ratilainen_CV.pdf" download><span class="icon entypo-download"></span>Lataa CV</a></li>
+        </ul>
+        <div class="clear"></div>
+        <ul class="header_menu horizontal_list">
+          <li><a href="/index.html">Profiili</a></li>
+          <li><a href="/koulutus.html">Koulutus</a></li>
+          <li><a href="/tyokokemus.html">Työkokemus</a></li>
+          <li><a href="/taidot.html" class="purple" > Taidot ja työnäytteet</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Ohjelmointitaidot:</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="assets/icons/icons8-java.svg" alt="Java" title="Java" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-python.svg" alt="Python" title="Python" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-javascript.svg" alt="JavaScript" title="JavaScript" loading="lazy" class="icon icon-card">
+          
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img src="assets/icons/icons8-html-5.svg" alt="HTML" title="HTML" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/css3-seeklogo.com.svg" alt="CSS" title="CSS" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/sql-icon.svg" alt="SQL" title="SQL" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-php-logo.svg" alt="PHP" title="PHP" loading="lazy" class="icon icon-card">
+        </div>
+      </div>
+
+      <h2 class="skill-header">Muut taidot:</h2>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="assets/icons/icons8-git.svg" alt="GIT" title="GIT" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/icons8-netbeans.svg" alt="Apache Netbeans" title="Apache Netbeans" loading="lazy"
+            class="icon icon-card">
+          <img src="assets/icons/icons8-office-365.svg" alt="Office 365" title="Office 365" loading="lazy"
+            class="icon icon-card">
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img src="assets/icons/icons8-visual-studio.svg" alt="Visual Studio" title="Visual Studio" loading="lazy"
+            class="icon icon-card">
+          <img src="assets/icons/icons8-android-studio.svg" alt="Android Studio" title="Android Studio" loading="lazy"
+            class="icon icon-card">
+          <img src="assets/icons/icons8-windows-10.svg" alt="Windows" title="Windows" loading="lazy"
+            class="icon icon-card">
+          <img src="assets/icons/linux-svgrepo-com.svg" alt="Linux" title="Linux" loading="lazy"
+            class="icon icon-card">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Projects section -->
+
+    <section class="projects" id="java">
+      <h2 class="projects-title">Java - työnäytteitä:</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/gifs/noppapeli.gif" alt="Noppapeli" loading="lazy" class="project-pic">
+          <h3 class="project-title">Noppapeli</h3>
+          <p class="project-details">
+            Apache NetBeans: Tässä pelataan venttiä nopilla. Peli perustuu satunnaislukuihin.
+          </p>
+          <a href="https://github.com/Ratija/tyonaytteet/tree/main/Java/Noppapeli" target="_blank" class="project-link">Noppapeli</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="assets/gifs/parturi.gif" alt="ParturiKampaamo" loading="lazy" class="project-pic">
+          <h3 class="project-title">ParturiKampaamo</h3>
+          <p class="project-details">
+            Apache NetBeans: Parturikampaamo-ohjelma, joka laskee yrityksen palvelut.
+          </p>
+          <a href="https://github.com/Ratija/tyonaytteet/tree/main/Java/Kampaamo" target="_blank" class="project-link">ParturiKampaamo</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="assets/gifs/darknote.gif" alt="DarkNote" loading="lazy" class="project-pic">
+          <h3 class="project-title">DarkNote-muistio</h3>
+          <p class="project-details">
+            Apache NetBeans: Muistio yökäyttöön kaikilla perustoiminnoilla, vaihdettava taustaväri.
+          </p>
+          <a href="https://github.com/Ratija/tyonaytteet/tree/main/Java/DarkNote" target="_blank" class="project-link">DarkNote</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="python">
+      <h2 class="projects-title">Python - työnäyte:</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/gifs/saahaku.gif" alt="SääHaku" loading="lazy" class="project-pic">
+          <h3 class="project-title">SääHaku</h3>
+          <p class="project-details">
+            VS Code: Puhuva säänhaku-ohjelma, jossa myös kartalle paikannus.
+          </p>
+          <a href="https://github.com/Ratija/tyonaytteet/tree/main/Python/SaaHaku" target="_blank" class="project-link">SääHaku</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="javascript">
+      <h2 class="projects-title">JavaScript - työnäytteitä:</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/gifs/pizzalaskuri.gif" alt="Pizzalaskuri" loading="lazy" class="project-pic">
+          <h3 class="project-title">Pizzalaskuri</h3>
+          <p class="project-details">
+            JavaScriptillä tehty pizzeria-ohjelma, joka laskee täytteet ja loppusumman. Ohjelmassa muokattava ostoskori.
+          </p>
+          <a href="JSnayte/PizzaLaskuri/pizzalaskuri.html" target="_blank" class="project-link">Pizzalaskuri</a>
+        </div>
+        <div class="project-container project-card">
+          <img src="assets/gifs/lottokone.gif" alt="Lottokone" loading="lazy" class="project-pic">
+          <h3 class="project-title">Lottokone</h3>
+          <p class="project-details">
+            JavaScriptillä tehty lottokone, joka arpoo satunnaisluvut, tekee tarkistuksen ja tallentaa tiedostoon.
+
+          </p>
+          <a href="JSnayte/LottoKone/lotto.html" target="_blank" class="project-link">Lottokone</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="CSS">
+      <h2 class="projects-title">CSS - työnäyte:</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/gifs/auringonkukka.gif" alt="CSS-Auringonkukka" loading="lazy" class="project-pic">
+          <h3 class="project-title">CSS - Auringonkukka</h3>
+          <p class="project-details">
+            Koulutehtäväharjoitus CSS-muotoilusta.
+          </p>
+          <a href="CSSnayte/Auringonkukka.html" target="_blank" class="project-link">Auringonkukka</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="SQL">
+      <h2 class="projects-title">SQL  Java & PHP - työnäyte:</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/gifs/asiakastilaus.gif" alt="Asiakasrekisteri" loading="lazy" class="project-pic">
+          <h3 class="project-title">Asiakastilaus</h3>
+          <p class="project-details">
+            Java / Apache NetBeans: Tietokantaohjelma, jolla voidaan hallinnoida asiakkaita, tuotteita sekä tilauksia.
+          </p>
+          <a href="https://github.com/Ratija/tyonaytteet/tree/main/SQL/Java/Pst%20asiakastilaus" target="_blank" class="project-link">Asiakastilaus</a>
+        </div>
+            <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/gifs/elainrekisteri.gif" alt="Eläinrekisteri" loading="lazy" class="project-pic">
+          <h3 class="project-title">Eläinrekisteri</h3>
+          <p class="project-details">
+            PHP / VS Code: Tietokantaohjelma, jolla kasvattaja voi hallinnoida eläinten tietoja.
+          </p>
+          <a href="https://github.com/Ratija/tyonaytteet/tree/main/PHP" target="_blank" class="project-link">Eläinrekisteri</a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    
+    <section class="projects" id="android-studio">
+      <h2 class="projects-title">Android Studio - työnäyte:</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img src="assets/gifs/neulontakalenteri.gif" alt="Neulontakalenteri" loading="lazy" class="project-pic">
+          <h3 class="project-title">Neulontakalenteri</h3>
+          <p class="project-details">
+            Vielä keskeneräinen projekti ja suunnitelmia tämän varalle, niin en laita lähdekoodia esille.
+          </p>
+            </div>
+      </div>
+    </section>
+
+
+    <div class="clear"></div>
+    <i class="scroll-up" id="scroll-up"><img src="assets/gifs/up.png" class="socicon up-arrow" alt="Alkuun"></i>
+ <!-- FOOTER -->
+ <div id="footer">
+   <p class="footer_name">Janne Ratilainen - Portfolio 2023</p>
+ </div>
+
+</body>
+
+</html>
