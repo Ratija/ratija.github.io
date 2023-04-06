@@ -137,7 +137,7 @@ blockquote {
 blockquote, p , a, li {
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 16px;
 	color: #e4e3e8;
 }
 
@@ -531,12 +531,12 @@ ul {
 	 }
 	 
 	 .timeline-content span {
-		font-size: 15px;
+		font-size: 16px;
 		color: #e4e3e8;
 	 }
 	 
 	 .timeline-content p {
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 1.5em;
 		word-spacing: 1px;
 		color: #e4e3e8;
@@ -662,7 +662,7 @@ ul {
 			
 		  }
 
-				  /* hammpari loppu */
+				
 
 		.profile_quote p {
 			font-size: 17px;
