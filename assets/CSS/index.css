@@ -777,51 +777,28 @@ li:before {
 		width: 20.875rem;
 	}
 
-	.vasen_viiva,
-	.oikea_viiva {
+	.vasen_viiva
+	{
 		border-top: 1px solid #434247;
-		width: 305px;
+		width: 400px;
 		margin-top: 13px;
 	}
 
 	.vasen_viiva {
+
 		float: left;
 	}
 
 	.oikea_viiva {
-		float: right;
+	visibility: hidden;
 	}
 
 	.vasen_ympyra,
 	.keski_ympyra,
 	.oikea_ympyra {
-		background: rgb(69, 68, 73);
-		background: rgba(255, 255, 255, 0.15);
-		position: absolute;
-		border-radius: 50px;
-	}
+		visibility: hidden;
 
-	.vasen_ympyra,
-	.oikea_ympyra {
-		width: 13px;
-		height: 13px;
-		top: 7px;
-	}
-
-	.vasen_ympyra {
-		left: 314px;
-	}
-
-	.keski_ympyra {
-		width: 26px;
-		height: 26px;
-		top: 0px;
-		left: 322px;
-	}
-
-	.oikea_ympyra {
-		left: 343px;
-	}
+	 }
 
 
 	h1, h2, h3, h4 {
@@ -874,6 +851,17 @@ li:before {
 
 	body {
 		position: relative;
+	}
+	#header {
+		height: 150px;
+		border-bottom: none;
+	}
+
+	#footer {
+		width: 960px;
+		height: 60px;
+		border-top: none;
+		
 	}
 
 
